@@ -25,3 +25,10 @@ for d in data:
 		new.append(d)
 print('total', len(new), 'records which the length is less than 100')
 print(new[0])
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('there are a total of', len(good), 'postive comments')
+print(good[0])
